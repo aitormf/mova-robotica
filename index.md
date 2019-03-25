@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+## Diario de Robótica del MOVA
 
-You can use the [editor on GitHub](https://github.com/aitormf/mova-robotica/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+En este diario ire poniendo todos los avances en las prácticas de la asignatura de robotica del Máster de visión de la URJC 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Sigue líneas
 
-### Markdown
+Esta práctica consiste en seguir una línea con un F1 usando visión y un [controlador PID](https://en.wikipedia.org/wiki/PID_controller).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### Primera versión
 
-```markdown
-Syntax highlighted code block
+En esta primera versión se establecen 2 puntos, uno cerca del horizonte y otro un poco mas abajo, este segundo punto determina la velocidad de giro y con la diferencia entre el primero y el segundo se saca si es una curva recta o una curva.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/aitormf/mova-robotica/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IjoKkfNpUN4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
